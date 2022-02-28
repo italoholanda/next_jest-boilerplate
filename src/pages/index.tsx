@@ -1,11 +1,9 @@
-const foo = 'bar'
+import Header from 'components/Header'
 
 export default function Home() {
   return (
     <div>
-      <h1 style={{ fontFamily: 'monospace' }}>
-        foo; <br /> {foo};
-      </h1>
+      <Header />
     </div>
   )
 }
