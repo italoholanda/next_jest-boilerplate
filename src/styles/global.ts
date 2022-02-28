@@ -25,6 +25,9 @@ const GlobalStyles = createGlobalStyle`
         @media (min-width: 720px) {
 			font-size: 93.75%;
 		}
+        @media (min-width: 1280px) {
+			font-size: 100%;
+		}
     }
 
     html, body, #__next {
@@ -32,7 +35,7 @@ const GlobalStyles = createGlobalStyle`
     }
 
     body {
-        font-family:  -apple-system, BlinkMacSystemFont, 'Segoe Ui', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family:  'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe Ui', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         background-color: var(--grey-900);
         color: var(--white);
     }

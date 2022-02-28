@@ -13,6 +13,12 @@ function App({ Component, pageProps }: AppProps) {
           name="description"
           content="A simple project starter to work with TS, Next, Styled-Components and more"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
