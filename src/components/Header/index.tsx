@@ -11,7 +11,14 @@ const Header = ({ setIsModalOpen }: Props) => {
       <div className="container">
         <img src="/img/logo-text.svg" alt="test" />
         <ul>
-          <li>
+          <li
+            onClick={() =>
+              window.open(
+                'https://github.com/italoholanda/next_jest-boilerplate',
+                '_blank'
+              )
+            }
+          >
             <Button imgUrl="/img/source.svg" text="source" />
           </li>
           <li onClick={() => setIsModalOpen(true)}>
