@@ -1,7 +1,11 @@
 import Button from 'components/Button'
 import * as Styled from './style'
 
-const Header = () => {
+interface Props {
+  setIsModalOpen: (state: boolean) => void
+}
+
+const Header = ({ setIsModalOpen }: Props) => {
   return (
     <Styled.Header>
       <div className="container">
@@ -10,7 +14,7 @@ const Header = () => {
           <li>
             <Button imgUrl="/img/source.svg" text="source" />
           </li>
-          <li>
+          <li onClick={() => setIsModalOpen(true)}>
             <Button imgUrl="/img/clone.svg" text="clone" />
           </li>
         </ul>

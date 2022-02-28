@@ -4,6 +4,7 @@ export const Header = styled.header`
   width: 100%;
   background-color: var(--grey-900);
   box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.8);
+  border-bottom: var(--grey-600) 1px solid;
 
   > div,
   ul {
