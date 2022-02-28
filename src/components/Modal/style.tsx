@@ -81,6 +81,12 @@ export const Modal = styled.div`
     cursor: pointer;
   }
 
+  strong {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--cyan);
+  }
+
   @media (max-width: 768px) {
     .modal-container {
       max-width: 90%;
