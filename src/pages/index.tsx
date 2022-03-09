@@ -1,11 +1,5 @@
-const foo = 'bar'
+import Main from 'components/Main'
 
 export default function Home() {
-  return (
-    <div>
-      <h1 style={{ fontFamily: 'monospace' }}>
-        foo; <br /> {foo};
-      </h1>
-    </div>
-  )
+  return <Main />
 }
